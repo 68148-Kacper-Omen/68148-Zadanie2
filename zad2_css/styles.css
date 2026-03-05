@@ -127,3 +127,21 @@ a {
 #experience article:last-child p {
     margin-bottom: 0;
 }
+
+#contact {
+    text-align: center;
+}
+
+#contact div {
+    font-size: 20px;
+    line-height: 1.8;
+    
+}
+
+#contact a {
+    color: hsla(120, 15%, 92%, 1);
+}
+
+footer {
+    color: hsla(120, 15%, 92%, 1);
+}
