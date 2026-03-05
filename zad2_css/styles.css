@@ -52,7 +52,7 @@ section {
 
 h2 {
     color: hsla(45, 90%, 65%, 1);
-    font-size: 46px;
+    font-size: 38px;
     font-weight: 700;
     font-family: 'Montserrat', sans-serif;
     margin: 0;
@@ -99,7 +99,8 @@ h2 {
 }
 
 a {
-    color: hsla(120, 10%, 70%, 1)
+    color: hsla(120, 10%, 70%, 1);
+    overflow-wrap: break-word;
 }
 
 #projects ul {
