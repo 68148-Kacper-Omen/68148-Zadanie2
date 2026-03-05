@@ -146,3 +146,68 @@ a {
 footer {
     color: hsla(120, 15%, 92%, 1);
 }
+
+@media (min-width: 768px) {
+    #skills ol {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #skills ol li {
+        border: none;
+        width: calc(50% - 50px);
+    }
+
+    #info_container {
+        flex-direction: row;
+        width: 700px;
+        margin: 0 auto;
+        gap: 30px;
+    }
+
+    #info_container p {
+        text-align: left;
+        font-size: 26px;
+        width: 50%;
+    }
+
+    #cv_photo {
+        width: 50%;
+    }
+}
+
+@media (min-width: 1024px) {
+    #projects li, #experience article {
+        width: 70%;
+        margin: 15px auto;
+    }
+
+    #experience h3, p {
+        font-size: 26px;
+    }
+
+    #info_container {
+        width: 1000px;
+    }
+
+    #info_container p {
+        font-size: 38px;
+    }
+}
+
+@media (min-width: 1440px) {
+    #skills ol li {
+        width: calc(25% - 50px)
+    }
+
+    #projects li, #experience article {
+        width: 50%;
+        margin: 15px auto;
+    }
+
+    #experience h3, p {
+        font-size: 30px;
+    }
+}
