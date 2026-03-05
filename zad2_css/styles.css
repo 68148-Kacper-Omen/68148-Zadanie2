@@ -22,3 +22,39 @@ header h3 {
     font-size: 20px;
     color: hsla(120, 10%, 70%, 1);
 }
+
+section {
+    font-family: 'Lato', sans-serif;
+    background-color: hsla(160, 25%, 18%, 1);
+    color: hsla(120, 15%, 92%, 1);
+    padding: 20px 0;
+    border-bottom: 4px solid hsla(160, 30%, 12%, 1);
+}
+
+#about {
+    text-align: center;
+}
+
+#info_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    line-height: 1.6;
+    margin: 0 10px;
+}
+
+#cv_photo {
+    width: 90%;
+    margin-top: 20px;
+    border-radius: 25px;
+}
+
+h2 {
+    color: hsla(45, 90%, 65%, 1);
+    font-size: 46px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    text-align: center;
+}
