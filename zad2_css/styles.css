@@ -58,3 +58,37 @@ h2 {
     margin: 0;
     text-align: center;
 }
+
+#skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: hsla(120, 15%, 92%, 1);
+}
+
+#skills ol {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    font-size: 32px;
+    font-weight: 700;
+    width: 100%;
+}
+
+#skills ol li {
+    border-bottom: 4px solid hsla(160, 30%, 12%, 1);
+    padding: 30px 20px;
+    background-color: hsla(160, 30%, 22%, 1);
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+    margin: 10px 10px;
+}
+
+#skills ol li:last-child {
+    border-bottom: none;
+}
+
+.skill-image {
+    width: 70%;
+}
