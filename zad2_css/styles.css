@@ -110,3 +110,20 @@ a {
 #projects li:not(:last-child) {
     border-bottom: 4px dotted hsla(160, 30%, 12%, 1);
 }
+
+#experience {
+    padding: 20px 10px;
+    text-align: center;
+}
+
+#experience h3, p {
+    font-size: 22px;
+}
+
+#experience article:first-of-type {
+    border-bottom: 4px dotted hsla(160, 30%, 12%, 1);
+}
+
+#experience article:last-child p {
+    margin-bottom: 0;
+}
