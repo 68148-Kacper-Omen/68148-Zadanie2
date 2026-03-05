@@ -92,3 +92,21 @@ h2 {
 .skill-image {
     width: 70%;
 }
+
+#education {
+    text-align: center;
+    line-height: 1.7;
+}
+
+a {
+    color: hsla(120, 10%, 70%, 1)
+}
+
+#projects ul {
+    list-style: none;
+    padding: 0 10px;
+}
+
+#projects li:not(:last-child) {
+    border-bottom: 4px dotted hsla(160, 30%, 12%, 1);
+}
